@@ -7,8 +7,6 @@ export default createConfigForNuxt({
       eslint: true,
       allowJS: true, // Allow JS files in porject
       checkJs: false,  // Set to `true` if you want TypeScript to also type-check JavaScript
-      // prettier: true,
-      
     }
   },
   rules: {
@@ -19,6 +17,5 @@ export default createConfigForNuxt({
   extends: [
     'eslint:recommended', // Use standard ESLint recommendations
     'plugin:vue/vue3-essential', // Enable linting for Vue.js 3
-    // 'plugin:prettier/recommended', // Integrate Prettier 
   ],
 })

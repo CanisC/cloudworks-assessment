@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@nuxt/eslint": "^0.5.7",
+    "@nuxtjs/i18n": "^8.5.3",
     "nuxt": "^3.13.0",
     "typescript": "^5.5.4",
     "vue": "latest",
@@ -21,6 +22,7 @@
   "devDependencies": {
     "@eslint/js": "^9.10.0",
     "@nuxt/eslint-config": "^0.5.7",
+    "@nuxtjs/tailwindcss": "^6.12.1",
     "eslint": "^9.10.0",
     "eslint-plugin-vue": "^9.28.0",
     "globals": "^15.9.0"
