@@ -9,11 +9,13 @@
 
 3. Install dependencies:
 
-    npm install
+    Recommend node version: 20.17.0
+    run npm install
+   
 
-4. Start the development server:
+5. Start the development server:
 
-    npm run dev
+    run npm run dev
 
 - [Usage]
 
