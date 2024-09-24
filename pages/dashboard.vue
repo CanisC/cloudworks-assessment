@@ -1,6 +1,7 @@
 <template>
   <div class="grid place-items-center h-screen bg-[#FFFFFF]">
     <div class="flex w-[65%] h-[800px] p-4 overflow-auto">
+      <!-- Room List Panel -->
       <div
         :class="[
           'room-list-container w-[15%] h-full p-0 m-0 text-center flex flex-col border-r border-gray-[#F3F4F6] transition-all duration-300',
@@ -92,6 +93,7 @@
         </div>
         <div class="h-full bg-[#F3F4F6]" />
       </div>
+      <!-- User Panel Component -->
       <UserPanel class="pl-3" />
     </div>
   </div>
@@ -120,6 +122,7 @@ export default {
 
 <style scoped>
 .active-chat {
+  /* Selected chat (Room Panel) background colour */
   background: #1f384c;
 }
 </style>
