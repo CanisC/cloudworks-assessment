@@ -83,7 +83,7 @@
         </div>
       </div>
       <div
-        class="b2 w-[70%] p-0 m-0 text-center flex flex-col transition-all duration-300', (roomListCollapsed && userListCollapsed) ? 'w-full' : roomListCollapsed ? 'w-[80%]' : 'w-[65%]']"
+        class="b2 w-[65%] p-0 m-0 text-center flex flex-col transition-all duration-300', (roomListCollapsed && userListCollapsed) ? 'w-full' : roomListCollapsed ? 'w-[80%]' : 'w-[65%]']"
       >
         <div
           class="min-h-[10%] w-full bg-[#1f2c37] flex items-center justify-center"
