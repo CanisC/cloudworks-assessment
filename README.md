@@ -11,12 +11,12 @@
 
     Recommend node version: 20.17.0
    
-    run npm install
+    Run npm install
    
 
 5. Start the development server:
 
-    run npm run dev
+    Run npm run dev
 
 - [Usage]
 
