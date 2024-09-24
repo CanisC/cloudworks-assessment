@@ -1,7 +1,7 @@
 ## Table of Contents
 - [Installation]
 
-1. Clone the repository: git clone - add link
+1. Clone the repository: git clone https://github.com/CanisC/cloudworks-assessment.git
 
 2. Navigate to the project directory:
 
