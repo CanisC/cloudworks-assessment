@@ -67,6 +67,7 @@
           class="user-info flex flex-row items-center p-4 min-w-[30px] max-w-full"
         >
           <div class="avatar-wrapper pr-2">
+            <!-- Example default avatar, typically this would be the user profile image pulled from the systems storage. -->
             <img
               src="https://cdn-icons-png.flaticon.com/512/6858/6858504.png"
               alt="Avatar"
