@@ -49,7 +49,6 @@
       </div>
     </div>
 
-    <!-- Outer container transitions -->
     <div
       :class="[
         'transition-all duration-500 ease-in-out overflow-y-auto',
@@ -61,10 +60,9 @@
         :key="index"
         :class="[
           'transition-opacity duration-300 ease-in-out bg-[#F3F4F6] rounded-br-md',
-          userListCollapsed ? 'opacity-0 delay-0' : 'opacity-100 delay-200'
+          userListCollapsed ? 'opacity-0 delay-0' : 'opacity-100 delay-200',
         ]"
       >
-        <!-- No additional delay or transition here -->
         <div
           class="user-info flex flex-row items-center p-4 min-w-[30px] max-w-full"
         >
@@ -75,8 +73,12 @@
               class="avatar"
             >
             <div class="relative">
-              <span :class="`status-circle ${getStatus(user.statusID).class}`" />
-              <span class="tooltip absolute hidden bg-gray-700 text-white text-xs rounded py-1 px-2 -mt-6 ml-8">
+              <span
+                :class="`status-circle ${getStatus(user.statusID).class}`"
+              />
+              <span
+                class="tooltip absolute hidden bg-gray-700 text-white text-xs rounded py-1 px-2 -mt-6 ml-8"
+              >
                 {{ getStatus(user.statusID).displayName }}
               </span>
             </div>
@@ -119,7 +121,7 @@ export default {
   },
   computed: {
     store() {
-      return this.$nuxt.$store; // Access store using $nuxt.$store
+      return this.$nuxt.$store; // Allows access to $store variables, e.g. store.users
     },
   },
   methods: {
@@ -164,6 +166,7 @@ export default {
 }
 
 .status-circle {
+  /* User status circle */
   position: absolute;
   bottom: 5px;
   right: 5px;
@@ -194,6 +197,7 @@ export default {
 }
 
 .relative:hover .tooltip {
+  /* Show user status on hover */
   display: block;
 }
 </style>
