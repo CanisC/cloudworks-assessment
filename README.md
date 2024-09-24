@@ -5,7 +5,7 @@
 
 2. Navigate to the project directory:
 
-    - CD to project folder with editor
+    - CD to project within editor
 
 3. Install dependencies:
 
