@@ -1,6 +1,6 @@
 <template>
   <div
-    class="user-list-container w-[20%] p-0 m-0 text-center rounded-l-md flex flex-col border-l border-gray-[#F3F4F6] rounded-bl-md"
+    class="user-list-container w-[25%] p-0 m-0 text-center rounded-l-md flex flex-col border-l border-gray-[#F3F4F6] rounded-bl-md"
   >
     <div
       class="min-h-[10%] w-full bg-[#1F2937] flex flex-row items-center rounded-tr-md"
@@ -52,7 +52,7 @@
     <!-- Outer container transitions -->
     <div
       :class="[
-        'transition-all duration-500 ease-in-out overflow-scroll',
+        'transition-all duration-500 ease-in-out overflow-y-auto',
         userListCollapsed ? 'max-h-0 delay-300' : 'max-h-full',
       ]"
     >
